@@ -1,0 +1,10 @@
+@import url(./reset.css);
+
+:root {
+    --preto: #121212;
+    --branco: #FFFFFF;
+    --verde: #4CAF50;
+    --vermelho: #FF5252;
+    --azul: #2196F3;
+    --cinza: #37474F;
+}
