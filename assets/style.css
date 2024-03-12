@@ -18,9 +18,9 @@ body {
 
 #container-header {
     background-color: var(--background-header);
-    width: 100%;
+    width: 100vw;
     height: 250px;
-    padding-top: 50px;
+    padding-top:50px;
 }
 
 h1 {
@@ -38,15 +38,16 @@ h1 span {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
-    position: absolute;
-    top: 180px;
-    width: 100%;
+    width: 80vw;
+    margin: 80px auto; 
 }
 
 .cards {
     height: 150px;
-    width: 250px;
+    width: 80vw;
+    min-width: 310px;
     background-color: var(--texto-primario);
     border-radius: 5px;
     color: var(--background-header);
