@@ -38,40 +38,41 @@
         </section>
     </section>
 
-    <!-- <section id="form-container">
-        <form action="">
-            <div>
-                <label for="description">Descrição</label>
-                <input class="input-text" type="text" id="description" name="description" placeholder="Exemplo: Compras no supermercado...">
-            </div>
-            <div>
-                <label for="price">Preço</label>
-                <input class="input-text" type="number" id="price" name="price" placeholder="Exemplo: 1322,55">
-            </div>
-            <div id='form-radio-container'>
+    <dialog class="close">
+        <section id="form-container">
+            <h2>Nova Transação</h2>
+            <form action="">
                 <div>
-                    <input type="radio" id="input" name="transaction-type" value="input">
-                    <label for="input">Entrada</label>
+                    <label for="price">Preço</label>
+                    <input class="input-text" type="number" id="price" name="price" placeholder="Exemplo: 1322,55">
                 </div>
                 <div>
-                    <input type="radio" id="output" name="transaction-type" value="output">
-                    <label for="output">Saída</label>
+                    <label for="date">Data</label>
+                    <input type="date" id="date" name="date">
                 </div>
-            </div>
-            <div>
-                <label for="date">Data</label>
-                <input type="date" id="date" name="date">
-            </div>
-            <div>
-                <button type="submit">
-                    <img src="assets/images/add.svg" alt="adicionar mais um item">
-                    Adicionar
-                </button>
-            </div>
-        </form>
-    </section> -->
+                <div id='form-radio-container'>
+                    <div>
+                        <input type="radio" id="input" name="transaction-type" value="input">
+                        <label for="input">Entrada</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="output" name="transaction-type" value="output">
+                        <label for="output">Saída</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="description">Descrição</label>
+                    <input class="input-text" type="text" id="description" name="description" placeholder="Exemplo: Compras no supermercado...">
+                </div>
+                <div id="buttons">
+                    <button id="cancel">Cancelar</button>
+                    <button type="submit">Salvar</button>
+                </div>
+            </form>
+        </section>
+    </dialog>
 
-    <!-- <section id="table-container">
+    <section id="table-container">
         <table>
             <thead>
                 <tr>
@@ -99,8 +100,11 @@
                 </tr>
             </tbody>
         </table>
-    </section> -->
+    </section>
 
+    <button id="add">
+        <img src="assets/images/add.svg" alt="adicionar mais um item">
+    </button>
     <!-- <footer>© 2024 - my.money</footer> -->
 </body>
 </html>
