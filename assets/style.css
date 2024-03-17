@@ -242,35 +242,40 @@ button:active {
     color: var(--saldo-negativo);
 }
 
-button#add {
+#add {
     border-radius: 50%;
     width: 54px;
-    position: absolute;
-    right: 15px;
-    bottom: 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
     text-align: center;
     background-color: var(--botao);
     box-shadow: 2px 2px 8px 1px #2195f33d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button#add img {
     margin: 0;
-    height: 1rem;
-    width: 1rem;
+    width: 1.8rem;
 }
 
 /* ============== TABELA ============== */
 
 #table-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 45px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 80vw;
+    margin: 445px auto 50px;
 }
 
 table {
     border-collapse: collapse;
     color: var(--texto-secundário);
-    text-align: justify;
+    text-align: left;
+    width: 80%;
 }
 
 thead {
@@ -283,18 +288,36 @@ tbody {
 }
 
 td {
-    width: 10rem;
-    height: 4rem;
     word-wrap: break-word;
+    min-width: 160px;
+    max-width: 160px;
 }
 
 td:first-child {
-    min-width: 22rem;
     max-width: 30rem;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+
+td img {
+    width: 25px;
+}
+
+td img:first-child {
+    margin-right: 5px;
 }
 
 td, th {
     border: 1px solid var(--grades); 
     vertical-align: middle;
     padding: 10px 15px;
+}
+
+footer {
+    color: var(--texto-secundário);
+    text-align: center;
+    height: 50px;
 }

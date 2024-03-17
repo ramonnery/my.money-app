@@ -44,25 +44,25 @@
             <form action="">
                 <div>
                     <label for="price">Preço</label>
-                    <input class="input-text" type="number" id="price" name="price" placeholder="Exemplo: 1322,55">
+                    <input class="input-text" type="number" id="price" name="price" placeholder="Exemplo: 1322,55" required>
                 </div>
                 <div>
                     <label for="date">Data</label>
-                    <input type="date" id="date" name="date">
+                    <input type="date" id="date" name="date" required>
                 </div>
                 <div id='form-radio-container'>
                     <div>
-                        <input type="radio" id="input" name="transaction-type" value="input">
+                        <input type="radio" id="input" name="transaction-type" value="input" required>
                         <label for="input">Entrada</label>
                     </div>
                     <div>
-                        <input type="radio" id="output" name="transaction-type" value="output">
+                        <input type="radio" id="output" name="transaction-type" value="output" required>
                         <label for="output">Saída</label>
                     </div>
                 </div>
                 <div>
                     <label for="description">Descrição</label>
-                    <input class="input-text" type="text" id="description" name="description" placeholder="Exemplo: Compras no supermercado...">
+                    <input class="input-text" type="text" id="description" name="description" placeholder="Exemplo: Compras no supermercado..." required>
                 </div>
                 <div id="buttons">
                     <button id="cancel">Cancelar</button>
@@ -87,16 +87,28 @@
                     <td>Tv LG OLED</td>
                     <td>- R$ 4.181,39</td>
                     <td>03/02/2024</td>
+                    <td>
+                        <img src="./assets/images/edit.svg" alt="editar a célula">
+                        <img src="./assets/images/delete.svg" alt="exluir a célula">
+                    </td>
                 </tr>
                 <tr>
                     <td>Livros que comprei na Amazon</td>
                     <td>- R$ 88,54</td>
                     <td>21/02/2024</td>
+                    <td>
+                        <img src="./assets/images/edit.svg" alt="editar a célula">
+                        <img src="./assets/images/delete.svg" alt="exluir a célula">
+                    </td>
                 </tr>
                 <tr>
                     <td>Salário Ramon</td>
                     <td>+ R$ 993,60</td>
                     <td>29/02/2024</td>
+                    <td>
+                        <img src="./assets/images/edit.svg" alt="editar a célula">
+                        <img src="./assets/images/delete.svg" alt="exluir a célula">
+                    </td>
                 </tr>
             </tbody>
         </table>
@@ -105,6 +117,7 @@
     <button id="add">
         <img src="assets/images/add.svg" alt="adicionar mais um item">
     </button>
-    <!-- <footer>© 2024 - my.money</footer> -->
+
+    <footer>© 2024 - my.money</footer>
 </body>
 </html>
