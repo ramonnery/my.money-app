@@ -1,0 +1,53 @@
+@import url(style.css);
+
+#table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 80vw;
+    margin: 445px auto 50px;
+}
+
+table {
+    border-collapse: collapse;
+    color: var(--texto-secundário);
+    text-align: left;
+    width: 80%;
+}
+
+thead {
+    height: 2.5rem;
+    font-weight: 700;
+}
+
+tbody {
+    background-color: var(--background-secundario);
+}
+
+td {
+    word-wrap: break-word;
+    min-width: 160px;
+    max-width: 160px;
+}
+
+td:first-child {
+    max-width: 30rem;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+
+td img {
+    width: 25px;
+}
+
+td img:first-child {
+    margin-right: 5px;
+}
+
+td, th {
+    border: 1px solid var(--grades); 
+    vertical-align: middle;
+    padding: 10px 15px;
+}

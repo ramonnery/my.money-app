@@ -1,0 +1,21 @@
+@import url(./style.css);
+
+#add {
+    border-radius: 50%;
+    width: 54px;
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    text-align: center;
+    background-color: var(--botao);
+    box-shadow: 2px 2px 8px 1px #2195f33d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button#add img {
+    margin: 0;
+    width: 1.8rem;
+}
