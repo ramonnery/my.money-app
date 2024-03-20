@@ -20,6 +20,13 @@
             "value": 142.26,
             "date": "21/02/2024",
             "input": false
+        },
+        {
+            "id": 4,
+            "description": "Lenço humidecido",
+            "value": 37.51,
+            "date": "17/03/2024",
+            "input": false
         }
     ]
 }
