@@ -67,3 +67,7 @@ h1 span {
     text-align: left;
     margin-top: 40px;
 }
+
+.money-text::before {
+    content: 'R$ ';
+}

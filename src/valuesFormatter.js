@@ -6,6 +6,5 @@ export default function valuesFormatter(value) {
     })
 
     const formattedValue = currencyFormatBrl.format(value)
-
     return formattedValue
 }

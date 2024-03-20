@@ -1,6 +1,6 @@
 import { createTr, createTd, createImg } from "./createTags.js"
 
-export default function renderCosts({id, description, value, date, input}) {
+export default function renderTable({id, description, value, date, input}) {
     const tr = createTr(id)
     
     const descriptionTd = createTd(description)
