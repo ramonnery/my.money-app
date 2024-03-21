@@ -35,6 +35,14 @@
             "value": 993.60,
             "date": "31/03/2024",
             "input": true
+        },
+
+        {
+            "id": 6,
+            "description": "Freelancer programação",
+            "value": 450.00,
+            "date": "05/04/2024",
+            "input": true
         }
 
     ]
