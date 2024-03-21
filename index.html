@@ -39,7 +39,7 @@
         </section>
     </section>
 
-    <dialog class="close">
+    <dialog>
         <section id="form-container">
             <h2>Nova Transação</h2>
             <form action="">
@@ -55,11 +55,11 @@
                     <div>
                         <input type="radio" id="input" name="transaction-type" value="input" required>
                         <label for="input">Entrada</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="output" name="transaction-type" value="output" required>
-                        <label for="output">Saída</label>
-                    </div>
+                </div>
+                <div>
+                    <input type="radio" id="output" name="transaction-type" value="output" required>
+                    <label for="output">Saída</label>
+                </div>
                 </div>
                 <div>
                     <label for="description">Descrição</label>
@@ -67,7 +67,7 @@
                 </div>
                 <div id="buttons">
                     <button id="cancel">Cancelar</button>
-                    <button type="submit">Salvar</button>
+                    <button id="save" type="submit">Salvar</button>
                 </div>
             </form>
         </section>

@@ -1,49 +1,46 @@
 {
-    "costs": [
-        {
-            "id": 1,
-            "description": "Tv LG OLED",
-            "value": 4181.39,
-            "date": "03/02/2024",
-            "input": false
-        },
-        {
-            "id": 2,
-            "description": "Salário Àdria",
-            "value": 3100.00,
-            "date": "07/02/2024",
-            "input": true
-        },
-        {
-            "id": 3,
-            "description": "Livros que comprei na Amazon",
-            "value": 142.26,
-            "date": "21/02/2024",
-            "input": false
-        },
-        {
-            "id": 4,
-            "description": "Lenço humidecido",
-            "value": 37.51,
-            "date": "17/03/2024",
-            "input": false
-        },
-
-        {
-            "id": 5,
-            "description": "Salário Ramon",
-            "value": 993.60,
-            "date": "31/03/2024",
-            "input": true
-        },
-
-        {
-            "id": 6,
-            "description": "Freelancer programação",
-            "value": 450.00,
-            "date": "05/04/2024",
-            "input": true
-        }
-
-    ]
+  "costs": [
+    {
+      "id": 1,
+      "description": "Tv LG OLED",
+      "value": 4181.39,
+      "date": "03/02/2024",
+      "input": false
+    },
+    {
+      "id": 2,
+      "description": "Salário Àdria",
+      "value": 3100,
+      "date": "07/02/2024",
+      "input": true
+    },
+    {
+      "id": 3,
+      "description": "Livros que comprei na Amazon",
+      "value": 142.26,
+      "date": "21/02/2024",
+      "input": false
+    },
+    {
+      "id": 4,
+      "description": "Lenço humidecido",
+      "value": 37.51,
+      "date": "17/03/2024",
+      "input": false
+    },
+    {
+      "id": 5,
+      "description": "Salário Ramon",
+      "value": 993.6,
+      "date": "31/03/2024",
+      "input": true
+    },
+    {
+      "id": 6,
+      "description": "Freelancer programação",
+      "value": 450,
+      "date": "05/04/2024",
+      "input": true
+    }
+  ]
 }
